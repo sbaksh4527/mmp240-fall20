@@ -5,42 +5,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Slideshow</title>
       <script type="text/javascript" src="gallery.js"></script>
-<!--      <link rel="stylesheet" href="gallery.css">-->
-        
-        <style>
-            
-            body{
-                background-color: black;
-            }
-            
-            .container{
-                max-width:1140px;
-            }
-            
-            .slideshow img{
-                width:100%;
-                
-            }
-            
-            .slideshow{
-                position:relative;
-                display:flex;
-                flex-direction: column;
-                justify-content: center;
-            }
-            
-            .slide-next{
-                position: absolute;
-                right:0;
-            }
-            
-            .slide-back{
-                position: absolute;
-                left:0;
-            }
-        
-        
-        </style>
+      <link rel="stylesheet" href="gallery.css">
     </head>
     <body>
         <div class="container">
@@ -52,7 +17,7 @@
                 <img src="images/slide1.jpg" alt="" id="mypic">
                 <a href="#" class="slide-next" onclick="slideshowUp(); return false;">
                 <img src="images/next.png" alt="next"></a> 
-            </div> <!-- #slide -->
+            </div>
         </div> <!-- #container -->
     </body>
 </html>
