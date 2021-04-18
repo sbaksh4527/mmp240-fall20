@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Exercise 9</title>
+    <title>Exercise 8</title>
 
     <style>
     /* Add CSS code here */
@@ -21,7 +21,6 @@
     }
     nav{
       background-color: #008387;
-      padding: 1em;
     }
     nav li {
       display: inline;
@@ -42,7 +41,15 @@
       text-decoration: underline;
     }
 
-
+    @media (max-width:768px) {
+      nav li{
+        display: block;
+        border-right:none;
+        border-bottom: solid 1px #fff;
+        padding: 1em;
+        }
+      }
+                          
 
     </style>
 
