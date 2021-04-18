@@ -3,16 +3,30 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercise 10</title>
+    <title>Exercise 9</title>
     <style>
       #wrapper{
           max-width: 1200px;
           margin-left:auto;
           margin-right:auto;
       }
+
+      .layout{
+        display: grid;
+        grid-template-rows: auto auto auto;
+        grid-template-columns: 32% 32% 32%;
+        grid-row-gap: 2%;
+        grid-column-gap: 1em;
+      }
+
+      .one, .five{
+        grid-column-start: 1;
+        grid-column-end: 4;
+      }
       .layout img{
         width:100%;
       }
+
     </style>
   </head>
   <body>
